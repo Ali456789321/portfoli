@@ -1,0 +1,632 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+}
+
+.overflow {
+    overflow-y: hidden;
+}
+
+nav .nav-grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 95%;
+    margin: 0 auto;
+}
+
+nav {
+    width: 100%;
+    background-color: white;
+    position: relative;
+    z-index: 3;
+    position: fixed;
+    box-shadow: 0px 1px 7px 1px;
+}
+
+
+
+nav .nav-flex {
+    display: flex;
+}
+
+nav .nav-flex img {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+}
+
+nav .nav-flex h1 {
+    margin: 0;
+    font-size: 33px;
+    position: absolute;
+    top: 12px;
+    left: 103px;
+}
+
+nav .sections {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.sections a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration-line: underline;
+    text-decoration-color: red;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 4px;
+}
+
+.nav-grid .icons {
+    text-align: right;
+    padding-top: 20px;
+}
+
+.nav-grid .icons a {
+    color: black;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.nav-grid .icons .icon2 {
+    position: absolute;
+}
+
+.nav-grid .icons .icon3 {
+    position: absolute;
+}
+
+.icon2 {
+    right: 150px;
+}
+
+.icon2 i:hover {
+    color: red;
+}
+
+.icon3 {
+    right: 92px;
+}
+
+.icon3 i:hover {
+    color: red;
+}
+
+.fa-linkedin:hover {
+    color: red;
+}
+
+.hamburger-icon {
+    display: none;
+}
+
+.mob-sec-bg {
+    display: none;
+}
+
+.hero {
+    background-color: whitesmoke;
+    height: 500px;
+}
+
+.hero .hero-width {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.hero .hero-width .desrcrib-pad {
+    padding-top: 200px;
+}
+
+.hero .hero-width .desrcrib-pad h1 {
+    margin: 0;
+}
+
+.hero .hero-width .desrcrib-pad h1 span {
+    color: red;
+}
+
+.hero .hero-width .desrcrib-pad button {
+    background-color: red;
+    border: 0;
+    padding: 5px 8px 5px 8px;
+    border-radius: 10px;
+    margin-top: 5px;
+    font-weight: bold;
+    box-shadow: 0px 4px 7px 0px;
+    cursor: pointer;
+}
+
+.hero .hero-para {
+    margin: 0;
+    width: 90%;
+    padding-top: 5px;
+    padding-bottom: 3px;
+}
+
+.hero-img img {
+    width: 200px;
+    padding-top: 100px;
+    padding-left: 80px;
+}
+
+.portfolio {
+    padding-top: 90px;
+}
+
+.portfolio h1 {
+    text-align: center;
+    padding-bottom: 90px;
+}
+
+.portfolio1 {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.portfolio1 a {
+    color: black;
+    text-decoration: none;
+    color: black;
+}
+
+.portfolio1 a:hover {
+    text-decoration: underline;
+    color: red;
+}
+
+.portfolio1 a h2 {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.port1-img {
+    width: 590px;
+    height: 570px;
+    border-radius: 40px;
+    overflow: hidden;
+    box-shadow: 2px 4px 14px 5px
+}
+
+.port1-img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    transition: .3s;
+}
+
+.port1-img img:hover {
+    transform: scale(1.1);
+}
+
+.port-icons {
+    padding-left: 50px;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 500px;
+}
+
+.icons-flex {
+    display: flex;
+}
+
+.icons-flex i {
+    padding-top: 23px;
+    color: red;
+}
+
+.icons-flex h4 {
+    padding-left: 10px;
+}
+
+.portfolio2 {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    padding-top: 120px;
+}
+
+.portfolio2 a {
+    color: black;
+    text-decoration: none;
+}
+
+.portfolio2 a:hover {
+    text-decoration: underline;
+    color: red;
+}
+
+.portfolio2 h2 {
+    text-align: center;
+}
+
+.port-icons2 {
+    padding-right: 50px;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 500px;
+}
+
+
+hr {
+    margin-top: 100px;
+}
+
+.About-me-bg {
+    background-color: whitesmoke;
+    height: 750px;
+    margin-top: 90px;
+}
+
+.About-me {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.About-me h1 {
+    text-align: center;
+}
+
+.about-me-flex {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.about-me-flex img {
+    height: 500px;
+    width: 450px;
+    border-radius: 40px;
+    position: relative;
+    animation-name: move;
+    animation-duration: 2s;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    left: 150px;
+}
+
+@keyframes move {
+
+    from {
+        top: 0px;
+    }
+
+    to {
+        top: 20px;
+    }
+
+}
+
+.about-des {
+    padding-left: 210px;
+    display: flex;
+    flex-direction: column;
+    height: 450px;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.contact {
+    width: 80%;
+    margin: auto;
+    padding-top: 90px;
+}
+
+.contact h1 {
+    text-align: center;
+}
+
+.contact-flex {
+    display: flex;
+    padding-top: 40px;
+}
+
+.contact-flex .contact1 {
+    width: 40%;
+}
+
+.contact-flex .contact1 h1 {
+    text-align: left;
+    font-size: 50px;
+}
+
+.contact2 {
+    padding-left: 290px;
+    padding-top: 30px;
+}
+
+.mails {
+    display: flex;
+}
+
+.mails a {
+    color: black;
+    text-decoration: none;
+}
+
+.mails a {
+    font-size: 30px;
+    padding: 18px;
+}
+
+.envelope {
+    display: flex;
+    position: relative;
+    bottom: 35px;
+}
+
+.envelope i {
+    color: red;
+    padding-top: 23px;
+    padding-left: 55px;
+}
+
+.envelope h5 {
+    padding-left: 10px;
+}
+
+.envelope a {
+    text-decoration: none;
+    color: black;
+}
+
+.fiverr-icon {
+    width: 75px;
+    position: relative;
+    bottom: 19px;
+}
+
+@media only screen and (max-width: 600px) {
+
+    nav .nav-grid {
+        grid-template-columns: auto auto;
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    nav .nav-flex img {
+        width: 53px;
+        height: 53px;
+        padding-top: 8px;
+    }
+
+    nav .nav-flex h1 {
+        font-size: 27px;
+        left: 65px;
+        padding-top: 5px;
+    }
+
+    nav .sections {
+        display: none;
+    }
+
+    .hamburger-icon {
+        display: block;
+        padding-right: 15px;
+    }
+
+    .desktop-display {
+        display: none;
+    }
+
+    .mob-sec-bg {
+        position: fixed;
+        width: 100%;
+        display: block;
+        background-color: whitesmoke;
+        height: 100vh;
+        z-index: 2;
+        animation-name: mob-sec;
+        animation-duration: 2s;
+        justify-content: space-between;
+        padding-top: 50px;
+    }
+
+    @keyframes mob-sec {
+        from {
+            width: 0%;
+        }
+
+        to {
+            width: 100%;
+        }
+    }
+
+    .mob-sec-flex {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 380px;
+        justify-content: space-between;
+        animation-name: sec-opacity;
+        animation-duration: 3s;
+    }
+
+    @keyframes sec-opacity {
+        from {
+            opacity: 0;
+        }
+
+        to {
+            opacity: 1;
+        }
+    }
+
+    .mob-sec-flex a {
+        text-decoration: none;
+        color: black;
+    }
+
+    a:hover {
+        text-decoration-line: underline;
+        text-decoration-color: red;
+        text-decoration-thickness: 2px;
+        text-underline-offset: 4px;
+        color: red;
+    }
+
+    .hero {
+        height: 800px;
+    }
+
+    .hero .hero-width {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hero-img {
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .hero-img img {
+        padding-top: 50px;
+        padding-left: 0px;
+    }
+
+    .hero .hero-para {
+        margin: 0;
+        width: 100%;
+        padding-top: 5px;
+        padding-bottom: 4px;
+    }
+
+    .portfolio {
+        padding-top: 50px;
+    }
+
+    .portfolio h1 {
+        text-align: center;
+        padding-bottom: 50px;
+    }
+
+    .portfolio1 {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .port1-img {
+        width: 100%;
+        height: 300px;
+        border-radius: 20px;
+        overflow: hidden;
+        box-shadow: 2px 4px 14px 5px;
+        text-align: center;
+    }
+
+    .port-icons {
+        padding-left: 0px;
+        height: 400px;
+        padding: 0px;
+    }
+
+    .portfolio2 {
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column-reverse;
+        padding-top: 70px;
+    }
+
+    .port-icons2 {
+        padding-right: 50px;
+        padding-top: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 400px;
+    }
+
+    hr {
+        margin-top: 70px;
+    }
+
+    .About-me {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .About-me-bg {
+        height: 990px;
+        padding-top: 40px;
+    }
+
+    .about-me-flex {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding-top: 30px;
+    }
+
+    .about-me-flex img {
+        left: 0px;
+        width: 100%;
+        height: 350px;
+    }
+
+    .about-des {
+        padding-left: 0px;
+        display: flex;
+        flex-direction: column;
+        height: 400px;
+        justify-content: space-between;
+        padding-top: 50px;
+    }
+
+    .contact-flex .contact1 {
+        width: 100%;
+    }
+
+    .contact-flex .contact1 h1 {
+        text-align: left;
+        font-size: 30px;
+    }
+
+    .contact2 {
+        padding-left: 0px;
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact-flex {
+        flex-direction: column;
+    }
+
+    .envelope {
+        display: flex;
+        position: relative;
+        bottom: 20px;
+    }
+
+    .envelope i {
+        padding-left: 0px;
+    }
+
+    .fiverr-icon {
+        width: 70px;
+        position: relative;
+        bottom: 15px;
+    }
+
+}
